@@ -1,0 +1,9 @@
+.btns :not(:first-child) {
+  margin-left: 12px;
+}
+.btn:active {
+  background-color: rgb(236, 148, 16);
+}
+.btn {
+  text-transform: capitalize;
+}
