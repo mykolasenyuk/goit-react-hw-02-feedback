@@ -1,10 +1,10 @@
-import React from 'react';
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import React, { Component } from 'react';
+import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics/Statistics';
-import Section from './Section/Section';
-import Notification from './Notification/Notification';
+import Section from './Section';
+import Notification from './Notification';
 
-class Feedback extends React.Component {
+class Feedback extends Component {
   state = {
     good: 0,
     neutral: 0,

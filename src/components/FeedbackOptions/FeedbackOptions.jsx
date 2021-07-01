@@ -4,7 +4,7 @@ import s from './FeedbackOption.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const btns = Object.keys(options);
-
+  // console.log(Object.keys(options));
   return (
     <div className={s.btns}>
       {btns.map((btn, index) => (
